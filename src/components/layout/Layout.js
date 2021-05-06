@@ -1,7 +1,10 @@
 import React from "react"
 import Navbar from "../Navbar"
 import Footer from "../Footer"
-import "./layout.css"
+
+// preserves useful defaults and tries to normalize styles across browsers
+import "normalize.css"
+import "../../assets/css/main.css"
 
 // Wrapper Component
 const Layout = ({ children }) => {
